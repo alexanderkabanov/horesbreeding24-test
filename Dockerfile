@@ -9,3 +9,5 @@ COPY . /app
 
 # Run Python script when the container launches
 CMD ["python", "helloworld.py"]
+
+EXPOSE 8080
